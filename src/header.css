@@ -1,0 +1,30 @@
+.header {
+  background-color: #406cb2;
+  height: 60px;
+}
+
+span {
+  font-size: 25px;
+  white-space: nowrap;
+  margin-top: 0;
+  margin: auto;
+  padding: 20px 0px 0px 20px;
+  color: white;
+  display: inline-block;
+}
+.padLeft {
+  padding-left: 70px;
+}
+.back {
+  background-color: green;
+}
+
+.buttons {
+  height: 20px;
+  display: inline;
+  margin-left: 60%;
+  border: 1px solid green;
+}
+button {
+  margin-left: 20px;
+}

@@ -1,0 +1,18 @@
+.details_view {
+  margin-left: 12%;
+  padding-top: 80px;
+}
+
+.details_view::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.details_view input[type="text"] {
+  margin-left: 30%;
+}
+
+.details_view input[type="submit"] {
+  margin-left: 2%;
+}

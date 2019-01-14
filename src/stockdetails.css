@@ -1,0 +1,34 @@
+.stock_box {
+  height: 180px;
+  width: 180px;
+  border-radius: 15px;
+  float: left;
+  margin-left: 40px;
+  margin-top: 60px;
+  opacity: 0.8;
+  transition: opacity 500ms ease-in;
+  padding: 5px;
+  padding-top: 10px;
+}
+
+.stock_box p {
+  padding-left: 24px;
+  font-size: 16px;
+}
+.loss {
+  background-image: linear-gradient(#e24a4a, #bf5757);
+}
+
+.profit {
+  background-image: linear-gradient(#51ad4f, #75b773);
+}
+
+.fillUp {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.cross {
+  float: right;
+  margin: 10px 10px;
+}
